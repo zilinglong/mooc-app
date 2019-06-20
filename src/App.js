@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import NameCard from "./components/NameCard";
+import LikesButton from "./components/LikesButton";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </a>
       </header>
       <NameCard name="king" tel={123} isHuman tags={["恐龙", "足球小子"]} />
+      <LikesButton />
     </div>
   );
 }
