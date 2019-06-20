@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import NameCard from "./components/NameCard";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <NameCard name="king" tel={123} isHuman tags={["恐龙", "足球小子"]} />
     </div>
   );
 }
