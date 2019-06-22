@@ -5,6 +5,7 @@ import NameCard from "./components/NameCard";
 import LikesButton from "./components/LikesButton";
 import DigitalClock from "./components/DigitalClock";
 import CommentBox from "./components/CommentBox";
+import RefCommentBox from './components/RefCommentBox';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <LikesButton />
       <DigitalClock />
       <CommentBox />
+      <RefCommentBox />
     </div>
   );
 }
