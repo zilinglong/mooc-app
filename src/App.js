@@ -4,6 +4,7 @@ import "./App.css";
 import NameCard from "./components/NameCard";
 import LikesButton from "./components/LikesButton";
 import DigitalClock from "./components/DigitalClock";
+import CommentBox from "./components/CommentBox";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <NameCard name="king" tel={123} isHuman tags={["恐龙", "足球小子"]} />
       <LikesButton />
       <DigitalClock />
+      <CommentBox />
     </div>
   );
 }
